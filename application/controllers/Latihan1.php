@@ -7,6 +7,14 @@ class Latihan1 extends CI_Controller
         echo "Selamat datang, selamat belajar web proramming";
     }
 
+    public function biodata()
+    {
+        echo "Selamat datang, selamat belajar web proramming
+        Nama saya Fahriandi Azis.
+        Hobi saya Beranak.
+        ";
+    }
+
     public function penjumlahan($n1, $n2)
     {
         $this->load->model('Model_latihan1');
